@@ -6,5 +6,6 @@ function calcularIdadeUser(user: User) {
   return new Date().getFullYear() - user.birthYear;
 }
 
-calcularIdadeUser({});
-calcularIdadeUser("Diego");
+calcularIdadeUser({
+  birthYear: 20
+});
