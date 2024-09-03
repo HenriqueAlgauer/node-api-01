@@ -1,11 +1,15 @@
-interface User {
-  birthYear: number;
-}
+import fastify from "fastify";
 
-function calcularIdadeUser(user: User) {
-  return new Date().getFullYear() - user.birthYear;
-}
+const app = fastify();
 
-calcularIdadeUser({
-  birthYear: 20
+app.get("/hello", () => {
+  return "Hello World";
 });
+
+app
+  .listen({
+    port: 3333,
+  })
+  .then(() => {
+    console.log("HTTP Server Running !");
+  });
