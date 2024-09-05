@@ -1,6 +1,5 @@
 import fastify from "fastify";
 import { env } from "./env";
-import { knex } from "./database";
 import { transactionsRoutes } from "./routes/transactions";
 
 const app = fastify();
