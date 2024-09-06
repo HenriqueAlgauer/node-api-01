@@ -13,8 +13,8 @@ describe('Transactions routes', ()=>{
     })
     
     beforeEach(()=>{
-        execSync('npm run knex migrate:rollback --all')
-        execSync('npm run knex migrate:latest')
+        // execSync('npm run knex migrate:latest')
+        // execSync('npm run knex migrate:rollback --all')
     })
 
     it('should be able to create a new transaction', async ()=>{
