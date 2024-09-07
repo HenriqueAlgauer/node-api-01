@@ -1,11 +1,14 @@
-Projeto: Web API
+# RF
+[x] O usuário deve poder criar uma nova transação
+[x] O usuário deve poder obter um resumo da sua conta
+[x] O usuário deve poder listar todas as transações que já ocorreram
+[x] O usuário deve poder visualizar  uma transação única
 
-Linguagem: TypeScript
-Banco de dados: SQLite
+# RN
+[x] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá
+[ ] Deve ser possível identificarmos o usuário entre as requisições
+[ ] O usuário só pode visualizar transações o qual ele criou
 
--> Tecnologias utilizadas no projeto: 
-    -> dotenv (cria um ambiente seguro para comunicação com o arquivo .env)
-    -> fastify (mirco framework para node)
-    -> knex (query builder)
-    -> zod (utilizado junto com o typescript, foi utilizado no projeto para fazer a tipagem de um tabela no banco )
-    -> vitest (utilizado para fazer os testes, possui uma integração com o typescript)
+# RNF
+
+[ ]  
